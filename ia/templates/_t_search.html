@@ -1,0 +1,32 @@
+	<div class= "meta-container">
+		<div class= "left-container">
+      <img src="images/identity.png" class= "identity" alt="...">  
+      <div class= "credentials">
+
+        <form>
+          <textarea class= "form-expandible trans-box-resize ask query" name="comment" placeholder="Start Seeking here..." ng-model="seekQuery" autofocus required></textarea>
+          <button ng-click="seekResult(seekQuery)" type="submit"> Search </button>
+        </form>
+
+        <form ng-repeat="query in queries" >
+          <textarea class="form-expandible trans-box-resize search-result" name="comment" placeholder="" required>{{query.title}}</textarea>
+          <button ng-click="getAnswer(query)" type="submit"> Answer </button>
+        </form>          
+      </div>    
+		</div> <!-- "left-container" -->
+
+    <div class= "right-container">
+        <div class= "answer-container">
+            <div class= "answer-text">
+                <p> {{question}} </p>
+                <p> {{extquestion}} </p>
+                <p ng-repeat="answer in answers"> {{answer}} </p>
+            </div> <!-- "answer-text" -->
+
+            <div class= "answer-related">
+                lshdkkq
+            </div> <!-- "answer-related" --> 
+
+        <div> <!-- "answer-right" -->
+    </div> <!-- "right-container" -->
+  </div> <!-- "meta-container" -->

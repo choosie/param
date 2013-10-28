@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" ng-app="accretive" ng-controller="MainCtrl"> <!--<![endif]-->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Intelligent Assistant</title>
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+
+
+
+  <!-- <script src="js/modernizr.custom.65387.js"></script> -->
+
+</head>
+<body>
+  <div class= "top-band"></div>
+	
+
+  <div ng-view> </div>
+
+
+  <script src="js/modernizr.custom.65387.js"></script>
+  <script src="js/jquery_2.0.2.js"></script>
+  <script src="js/jquery.autosize.js"></script>
+
+  <script src="js/angular.min.js"></script>
+  <script src="js/underscore-min.js"></script>
+  <script src="js/block.js"> </script>
+  <script src="accretive.js"> </script>
+
+  <script>
+      $(function(){
+        $('textarea').autosize();   
+    })();
+  </script>
+
+</body>	
+</html>

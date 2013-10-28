@@ -1,0 +1,20 @@
+/* line 3, ../../../scss/style/style_modules/test.scss */
+.form-expandible {
+  width: 80%;
+  margin-top: 1em;
+  margin-left: 3.33333%;
+  padding: .6em;
+  padding-left: 3.33333%;
+  line-height: 1em;
+  border-width: none;
+  border-style: none;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.6); }
+  /* line 15, ../../../scss/style/style_modules/test.scss */
+  .form-expandible:hover, .form-expandible active, .form-expandible focus {
+    -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.6) inset;
+    -moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.6) inset;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.6) inset; }
